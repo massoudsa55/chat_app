@@ -10,6 +10,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Messaoud chat", style: TextStyle(fontSize: 30.0)),
       ),
+	  // TODO: use body to create design
       body: const ChatScreen(),
     );
   }
