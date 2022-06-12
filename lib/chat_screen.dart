@@ -51,6 +51,7 @@ class _ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
+	  //TODO ListView horizontal
         Flexible(
           child: ListView.builder(
             padding: const EdgeInsets.all(8.0),
