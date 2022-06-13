@@ -54,16 +54,3 @@ class ChatMessage extends StatelessWidget {
     );
   }
 }
-
-class GetImageAsset extends StatelessWidget {
-  const GetImageAsset({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    AssetImage assetImage = const AssetImage('images/my_photo.jpg');
-    return CircleAvatar(
-      radius: 25.0,
-      backgroundImage: assetImage1,
-    );
-  }
-}
